@@ -1,0 +1,31 @@
+.blog-card {
+  height: 230px;
+  width: 170px;
+  background-color: #e8f4fd;
+  border-radius: 4px;
+  border: 2px solid #0487f3;
+  cursor: pointer;
+  display: -moz-box;
+  display: flex;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.content-box {
+  margin: auto;
+}
+.blog-name {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.blog-icon {
+  height: 120px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.react-multiple-carousel__arrow {
+  outline: none !important;
+}

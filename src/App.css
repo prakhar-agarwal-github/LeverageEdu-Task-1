@@ -36,3 +36,222 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar-brand {
+  background-image: url("https://images.leverageedu.com/assets/img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 76px;
+  height: 38px;
+}
+
+.navbar {
+  background-color: #002541 !important;
+}
+.nav-link {
+  color: #ffff !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  height: 40px !important;
+  border-radius: 8px !important;
+}
+
+.nav-link:hover {
+  color: #ffff;
+  text-decoration: underline;
+}
+.login-btn {
+  width: 99px;
+  height: 43px;
+}
+.search-icon {
+  color: white;
+  height: 20px;
+  width: 20px;
+  margin: 0px 38px 0px 38px;
+}
+.tvLogo {
+  height: 20px;
+  width: auto;
+  margin-top: -6px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.content {
+  background-image: url("https://images.leverageedu.com/assets/img/home/homeBannerBg.svg");
+}
+
+.h-16 {
+  height: 16px !important;
+}
+
+.w-auto {
+  width: auto !important;
+}
+
+.hero {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0px;
+  width: 100%;
+  height: 400px;
+}
+
+.hero-inside {
+  box-sizing: border-box;
+  display: block;
+  max-width: 100%;
+}
+.hero-inside img {
+  max-width: 100%;
+  display: block;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+.hero img {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.CourseFinder {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.CourseFinder img {
+  height: 14px;
+  width: auto;
+}
+#homeBannerSection {
+  padding-top: 60px;
+  /* margin-top: 70px; */
+  background: url(https://images.leverageedu.com/assets/img/home/homeBannerBg.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 538px !important;
+}
+#homeBannerSection .header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#homeBannerSection .sub-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+.mobile-hide {
+  display: block;
+}
+#homeBannerSection .cf {
+  height: 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fff;
+  position: relative;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#homeBannerSection .cf p {
+  font-weight: 600;
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+}
+#homeBannerSection .talkExpert {
+  height: 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid #fff;
+  position: relative;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#homeBannerSection .talkExpert .callimgBlack {
+  top: 10px;
+  right: 10px;
+  height: 0;
+  width: 0;
+  display: none;
+}
+#homeBannerSection .talkExpert .callimg {
+  top: 10px;
+  right: 10px;
+  height: 16px;
+  width: auto;
+}
+#homeBannerSection .talkExpert p {
+  font-weight: 600;
+  font-size: 16px;
+  margin: auto;
+  color: #fff;
+}
+#homeBannerSection .companyLogos {
+  width: 100%;
+  z-index: 9;
+}
+#homeBannerSection .companyLogos ul {
+  text-align: left;
+  padding: 0;
+}
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+}
+.layout-main {
+  -moz-box-flex: 1;
+  flex: 1 1;
+  width: 100%;
+  margin: 0;
+}
+#homeBannerSection a {
+  text-decoration: none;
+}
+#homeBannerSection a {
+  text-decoration: none;
+}
+#homeBannerSection .companyLogos ul li img {
+  height: 32px;
+  margin: 20px 30px 20px 0;
+}
+
+#homeBannerSection .companyLogos ul li {
+  color: #fff;
+  display: inline-block;
+  width: 520px !important;
+  height: 72px !important;
+}
